@@ -9,7 +9,7 @@ public class Test {
 		try{
 			InputOutput io = new InputOutput();
 			io.readData();
-			io.parseDate(io.setFormat());
+			io.parseDate(io.getFormat());
 			io.printResult();
 		}
 		catch(InputMismatchException e){

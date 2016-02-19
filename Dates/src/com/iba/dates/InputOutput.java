@@ -25,7 +25,7 @@ public class InputOutput {
 		}
 	}
 	
-	public SimpleDateFormat setFormat(){
+	public SimpleDateFormat getFormat(){
 		if(flag==1){
 			return new SimpleDateFormat("dd.MM.yyyy");
 		}
